@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Flavour:</b>
+  <%= @cake.flavour %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%= @cake.weight %>
+</p>
+
+
+<%= link_to 'Edit', edit_cake_path(@cake) %> |
+<%= link_to 'Back', cakes_path %>
